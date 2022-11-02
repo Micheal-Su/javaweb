@@ -16,6 +16,7 @@ public class DoGetAndPostServlet extends HttpServlet {
 //     edit on github
 //    hot_fix
 //    local hot
+//    local hot secend test
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.getWriter().write("this is doGet Method,the servlet is created by IntelliJ IDEA");
